@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WalletProject.sol": "Wallet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WalletProject.sol": {
+			"keccak256": "0xddbf0b0039711303fc026c1eba7abd2d9e7bec100dc0540c77275d3b45dbca5d",
+			"urls": [
+				"bzz-raw://2cc2b024599199b251efd5527aa19745186cc4890129e3f555a678f375320720",
+				"dweb:/ipfs/QmR4sGkbD6mSBZE8BTAH6dJcLQkMNqLz3yFXLsTH8VUk3z"
+			]
+		}
+	},
+	"version": 1
+}
